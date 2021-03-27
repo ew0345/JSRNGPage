@@ -1,0 +1,17 @@
+body {
+    background-color: #232323;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+    background-color: #303030;
+    color: #eee;
+    border: none;
+}
+
+button {
+    background-color: #303030;
+    color: #eee;
+    border: none;
+}
