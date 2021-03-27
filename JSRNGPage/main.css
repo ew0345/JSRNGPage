@@ -15,3 +15,12 @@ button {
     color: #eee;
     border: none;
 }
+
+.output {
+    font-size: 0.9em;
+}
+
+/* center page content */
+.main, .btn, .output {
+    text-align: center;
+}
