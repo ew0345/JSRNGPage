@@ -10,20 +10,10 @@ function main() {
             var out = random(nums[0], nums[1]);
             output.innerHTML = "Random Number: "+out;
         } else {
-            if (output.innerHTML.includes("not valid")) {
-                output.innerHTML = output.innerHTML+"\n";
-            } else {
-                output.innerHTML = "";
-            }
-            output.innerHTML = output.innerHTML+" "+inputs[1]+" is not a valid number.";
+            output.innerHTML = " "+inputs[1]+" is not a valid number.";
         }
     } else {
-        if (output.innerHTML.includes("not valid")) {
-            output.innerHTML = output.innerHTML+"\n";
-        } else {
-            output.innerHTML = "";
-        }
-        output.innerHTML = output.innerHTML+" "+inputs[0]+" is not a valid number.";
+        output.innerHTML = " "+inputs[0]+" is not a valid number.";
     }
 }
 
